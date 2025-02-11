@@ -20,3 +20,10 @@ For this task, I used *MySQL*, a widely used relational database management syst
 There are different types of SQL Joins, each serving a specific purpose. The *INNER JOIN* retrieves only the records that have matching values in both tables. This is useful when we want to see data that is connected in both tables, such as employees and their respective departments. The *LEFT JOIN* returns all records from the left table and only the matching records from the right table. If there is no match, the result will include NULL values. This is helpful when we want to find, for example, all employees, even those who have not been assigned a department. The *RIGHT JOIN* works similarly but returns all records from the right table and only the matching ones from the left. Finally, the *FULL JOIN* brings in all records from both tables, filling in NULL values where there is no match. However, since *MySQL does not support FULL JOIN, we can achieve the same result by using a **UNION* of LEFT and RIGHT JOIN queries.  
 
 *OUTPUT*:
+![Image](https://github.com/user-attachments/assets/aead19b4-4aca-42b5-ae19-747045c37c6b)
+
+![Image](https://github.com/user-attachments/assets/1d188ef3-4eac-4d9d-9578-c3270792b06a)
+
+![Image](https://github.com/user-attachments/assets/38d1d782-146e-4128-b2c9-5292af732af5)
+
+![Image](https://github.com/user-attachments/assets/d20b3c9f-f28b-474e-95fb-aa8c72bd87fe)
